@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{%block content%}
+        <form action="details" autocomplete="off">
+          First name:<input type="text" name="fname"><br><br>
+          Last name:<input type="text" name="lname"><br><br>
+            <label for="membership">Sex:</label>
+            <select name="membership" id="membership">
+                <option value=""></option>
+              <option value="male">Male</option>
+              <option value="femlae">Female</option>
+            </select><br><br>
+             <label for="birthday">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit", value="Submit">
+        </form>
+  <form action="display" autocomplete="off">
+      Display the content of the table:
+      <input type="submit", value="Show">
+
+
+
+
+
+
+
+
+
+
+        </form>
+
+{%endblock%}
+
+</body>
+</html>
