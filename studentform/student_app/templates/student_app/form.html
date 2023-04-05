@@ -22,6 +22,24 @@
   <form action="display" autocomplete="off">
       Display the content of the table:
       <input type="submit", value="Show">
+   </form>
+
+  <form action="search" autocomplete="off">
+      First name:<input type="text" name="fname1"><br><br>
+      <input type="submit", value="Search"><br><br>
+  </form>
+
+<form action="delete" autocomplete="off">
+    Enter First name to delete:<input type="text" name="fname2"><br><br>
+      <input type="submit", value="Delete"><br><br>
+  </form>
+
+<form action="update" autocomplete="off">
+    <p>update firstname</p>
+    Enter old First name:<input type="text" name="fname3"><br><br>
+    Enter new First name:<input type="text" name="fname4"><br><br>
+    <input type="submit", value="update">
+  </form>
 
 
 
@@ -32,7 +50,9 @@
 
 
 
-        </form>
+
+
+
 
 {%endblock%}
 

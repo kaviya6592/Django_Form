@@ -21,4 +21,9 @@ urlpatterns = [
     path('', views.index),
     path('details/', views.details),
     path('display/', views.display),
+    path('search/', views.search),
+    path('delete/', views.delete),
+    path('update/', views.update),
+
+
 ]
